@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background: linear-gradient(rgba(50, 50, 50, 1), rgba(0, 0, 0, 0.5)), url(img/hole.png);
+    background: linear-gradient(rgba(50, 50, 50, 1), rgba(0, 0, 0, 0.5)), url(img/lusseee.png);
     background-size: cover;
     background-position: center;
     height: 50vh;
@@ -61,6 +61,21 @@ nav ul li a {
 .description {
     width: 80%;
     margin: 50px auto;
+}
+
+.closeup {
+    width: 60%;
+    margin: 50px auto;
+}
+
+video {
+    display: block;
+    margin: 0 auto;
+}
+
+.closeup h2 {
+    margin: 80px 0 10px 0;
+    text-align: center;
 }
 
 p {
@@ -141,6 +156,15 @@ div img {
   .description {
     width: 90%;
   }
+    
+    .closeup {
+    width: 90%;
+}
+    
+    video {
+        width: 100%;
+    }
+    
     #biglogo {
         width: 0%;
 }
