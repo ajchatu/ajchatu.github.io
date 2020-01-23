@@ -1,3 +1,5 @@
+
+/* generellt + nav */
 body {
     margin: 0;
     padding: 0;
@@ -48,26 +50,33 @@ nav ul li a {
     font-size: 20px;
 }
 
-h1, h2 {
-    font-family: 'DM Serif Text', serif;
+.logo {
+    height: 50px;
+    float: left;
+    margin: 20px 0 20px 10%;
 }
 
-#biglogo { /* den stora lmao */
-    float: center;
-    margin: 10%;
-}
-
-header h1 {
-     /* den stora lmao */
+header h1 { /* texten i headern */
     padding: 200px 0 0 10%;
     color: #fff;
     font-size: 50px;
 }
 
-.logo {
-    height: 50px;
-    float: left;
-    margin: 20px 0 20px 10%;
+h1, h2 {
+    font-family: 'DM Serif Text', serif;
+}
+
+h1 {
+    color: #ffb852;
+}
+
+h3 {
+    margin: 0;
+    font-style: italic;
+}
+
+a {
+    color: #ffb852;
 }
 
 .description {
@@ -85,11 +94,6 @@ video {
     margin: 0 auto;
 }
 
-.closeup h2 {
-    margin: 80px 0 10px 0;
-    text-align: center;
-}
-
 p {
     font-size: 18px;
     line-height: 28px;
@@ -99,6 +103,15 @@ nav.black {
     background: #333;
 }
 
+/* generellt + nav end */
+
+
+.closeup h2 {
+    margin: 80px 0 10px 0;
+    text-align: center;
+}
+
+/* stil för kolumner */
 .row {
   display: flex;
   flex-direction: row;
@@ -118,10 +131,7 @@ nav.black {
     margin: 15px 0 0 0;
 }
 
-h3 {
-    margin: 0;
-    font-style: italic;
-}
+/* stil för kolumner end */
 
 
 div img {
@@ -132,6 +142,21 @@ div img {
     width: 80%;
     float: right;
 }
+
+.pround span {
+    background: #333;
+    color: #fff;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px 30px;
+    border-radius: 40px;
+}
+
+.contact {
+    text-align: center;
+}
+
+/* gör att a länkar ser ut som en knapp, för länkning till portf.sida och om mig */
 
 .button {
     display: block;
@@ -161,8 +186,10 @@ div img {
     transform: scale(0.99);
 }
 
+/* end a link till knapp */
 
 
+/* mobilanpassat */
 
 @media only screen and (max-width: 1000px) {
   .description {
@@ -178,7 +205,6 @@ div img {
     }
     
     header h1 {
-     /* den stora lmao */
     padding: 200px 0 0 5%;
 }
     
