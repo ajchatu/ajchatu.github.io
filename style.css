@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background: linear-gradient(rgba(50, 50, 50, 1), rgba(0, 0, 0, 0.5)), url(img/lusseee.png);
+    background: linear-gradient(rgba(50, 50, 50, 1), rgba(0, 0, 0, 0.5)), url(img/mhbanner.png);
     background-size: cover;
     background-position: center;
     height: 50vh;
