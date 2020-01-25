@@ -158,7 +158,13 @@ div img {
 }
 
 .contact {
+    display: block;
     text-align: center;
+    margin: 100px auto;
+}
+
+.contact > h3 {
+    color: #ffb852;
 }
 
 /* gör att a länkar ser ut som en knapp, för länkning till portf.sida och om mig */
