@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background: linear-gradient(rgba(50, 50, 50, 1), rgba(0, 0, 0, 0.5)), url(img/mhbanner.png);
+    background: linear-gradient(rgba(50, 50, 50, 1), rgba(0, 0, 0, 0)), url(img/mhbanner.png);
     background-size: cover;
     background-position: center;
     height: 50vh;
@@ -40,7 +40,11 @@ nav ul {
     float: right;
     margin: 0;
     padding-right: 10%;
-    font-family: 'DM Serif Text', serif;
+    font-family: 'Unica One', cursive;
+}
+
+header h1 {
+    font-family: 'Unica One', cursive;
 }
 
 nav ul li {
@@ -67,7 +71,8 @@ header h1 { /* texten i headern */
 }
 
 h1, h2 {
-    font-family: 'DM Serif Text', serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
 }
 
 h1 {
